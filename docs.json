@@ -1,0 +1,147 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "desc" : "Assign functions to be called when the system enters a new state.",
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "Constructor" : [
+
+    ],
+    "doc" : "Assign functions to be called when the system enters a new state.\n\nDownload: [https:\/\/github.com\/k-obrien\/state-actor\/raw\/master\/StateActor.spoon.zip](https:\/\/github.com\/k-obrien\/state-actor\/raw\/master\/StateActor.spoon.zip)",
+    "items" : [
+      {
+        "doc" : "Binds actions for StateActor\n\nParameters:\n * mapping - A table containing tables of functions to call when entering one of the below states:\n  * screensaverDidStart - The screensaver started\n  * screensaverDidStop - The screensaver stopped\n  * screensaverWillStop - The screensaver is about to stop\n  * screensDidLock - The screen was locked\n  * screensDidSleep - The displays have gone to sleep\n  * screensDidUnlock - The screen was unlocked\n  * screensDidWake - The displays have woken from sleep\n  * sessionDidBecomeActive - The session became active, due to fast user switching\n  * sessionDidResignActive - The session is no longer active, due to fast user switching\n  * systemDidWake - The system woke from sleep\n  * systemWillPowerOff - The user requested a logout or shutdown\n  * systemWillSleep - The system is preparing to sleep",
+        "stripped_doc" : [
+          "Binds actions for StateActor",
+          ""
+        ],
+        "name" : "bindActions",
+        "def" : "StateActor:bindActions(mapping)",
+        "notes" : [
+
+        ],
+        "signature" : "StateActor:bindActions(mapping)",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "desc" : "Binds actions for StateActor",
+        "parameters" : [
+          " * mapping - A table containing tables of functions to call when entering one of the below states:",
+          "  * screensaverDidStart - The screensaver started",
+          "  * screensaverDidStop - The screensaver stopped",
+          "  * screensaverWillStop - The screensaver is about to stop",
+          "  * screensDidLock - The screen was locked",
+          "  * screensDidSleep - The displays have gone to sleep",
+          "  * screensDidUnlock - The screen was unlocked",
+          "  * screensDidWake - The displays have woken from sleep",
+          "  * sessionDidBecomeActive - The session became active, due to fast user switching",
+          "  * sessionDidResignActive - The session is no longer active, due to fast user switching",
+          "  * systemDidWake - The system woke from sleep",
+          "  * systemWillPowerOff - The user requested a logout or shutdown",
+          "  * systemWillSleep - The system is preparing to sleep"
+        ]
+      },
+      {
+        "doc" : "Start StateActor\n\nParameters:\n * None",
+        "stripped_doc" : [
+          "Start StateActor",
+          ""
+        ],
+        "name" : "start",
+        "def" : "StateActor:start()",
+        "notes" : [
+
+        ],
+        "signature" : "StateActor:start()",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "desc" : "Start StateActor",
+        "parameters" : [
+          " * None"
+        ]
+      }
+    ],
+    "Command" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "Method" : [
+      {
+        "doc" : "Binds actions for StateActor\n\nParameters:\n * mapping - A table containing tables of functions to call when entering one of the below states:\n  * screensaverDidStart - The screensaver started\n  * screensaverDidStop - The screensaver stopped\n  * screensaverWillStop - The screensaver is about to stop\n  * screensDidLock - The screen was locked\n  * screensDidSleep - The displays have gone to sleep\n  * screensDidUnlock - The screen was unlocked\n  * screensDidWake - The displays have woken from sleep\n  * sessionDidBecomeActive - The session became active, due to fast user switching\n  * sessionDidResignActive - The session is no longer active, due to fast user switching\n  * systemDidWake - The system woke from sleep\n  * systemWillPowerOff - The user requested a logout or shutdown\n  * systemWillSleep - The system is preparing to sleep",
+        "stripped_doc" : [
+          "Binds actions for StateActor",
+          ""
+        ],
+        "name" : "bindActions",
+        "def" : "StateActor:bindActions(mapping)",
+        "notes" : [
+
+        ],
+        "signature" : "StateActor:bindActions(mapping)",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "desc" : "Binds actions for StateActor",
+        "parameters" : [
+          " * mapping - A table containing tables of functions to call when entering one of the below states:",
+          "  * screensaverDidStart - The screensaver started",
+          "  * screensaverDidStop - The screensaver stopped",
+          "  * screensaverWillStop - The screensaver is about to stop",
+          "  * screensDidLock - The screen was locked",
+          "  * screensDidSleep - The displays have gone to sleep",
+          "  * screensDidUnlock - The screen was unlocked",
+          "  * screensDidWake - The displays have woken from sleep",
+          "  * sessionDidBecomeActive - The session became active, due to fast user switching",
+          "  * sessionDidResignActive - The session is no longer active, due to fast user switching",
+          "  * systemDidWake - The system woke from sleep",
+          "  * systemWillPowerOff - The user requested a logout or shutdown",
+          "  * systemWillSleep - The system is preparing to sleep"
+        ]
+      },
+      {
+        "doc" : "Start StateActor\n\nParameters:\n * None",
+        "stripped_doc" : [
+          "Start StateActor",
+          ""
+        ],
+        "name" : "start",
+        "def" : "StateActor:start()",
+        "notes" : [
+
+        ],
+        "signature" : "StateActor:start()",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "desc" : "Start StateActor",
+        "parameters" : [
+          " * None"
+        ]
+      }
+    ],
+    "name" : "StateActor"
+  }
+]
