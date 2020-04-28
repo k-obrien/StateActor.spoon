@@ -14,6 +14,8 @@ obj.author = "Kieran O'Brien"
 obj.homepage = "https://github.com/k-obrien/state-actor"
 obj.license = "GPLv3 - https://opensource.org/licenses/GPL-3.0"
 
+obj.states = {}
+
 --- StateActor:bindActions(mapping)
 --- Method
 --- Binds actions for StateActor
@@ -34,7 +36,6 @@ obj.license = "GPLv3 - https://opensource.org/licenses/GPL-3.0"
 ---   * systemWillSleep - The system is preparing to sleep
 function obj:bindActions(mapping)
    local state = hs.caffeinate.watcher
-   self.states = {}
    self.states[state.screensaverDidStart] = mapping.screensaverDidStart
    self.states[state.screensaverDidStop] = mapping.screensaverDidStop
    self.states[state.screensaverWillStop] = mapping.screensaverWillStop
