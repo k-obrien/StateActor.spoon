@@ -62,7 +62,11 @@ function obj:start()
 end
 
 function obj.onSystemState(state)
-   for _, action in pairs(obj.states[state]) do action() end
+   local state = obj.states[state]
+
+   if state then
+      for _, action in pairs(state) do action() end
+   end
 end
 
 return obj
