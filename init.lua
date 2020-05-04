@@ -2,7 +2,7 @@
 ---
 --- Assign functions to be called when the system enters a new state.
 ---
---- Download: [https://github.com/k-obrien/state-actor/raw/master/StateActor.spoon.zip](https://github.com/k-obrien/state-actor/raw/master/StateActor.spoon.zip)
+--- Download: [https://github.com/k-obrien/StateActor.spoon/archive/master.zip](https://github.com/k-obrien/StateActor.spoon/archive/master.zip)
 
 local obj={}
 obj.__index = obj
@@ -11,7 +11,7 @@ obj.__index = obj
 obj.name = "StateActor"
 obj.version = "0.1"
 obj.author = "Kieran O'Brien"
-obj.homepage = "https://github.com/k-obrien/state-actor"
+obj.homepage = "https://github.com/k-obrien/StateActor.spoon"
 obj.license = "GPLv3 - https://opensource.org/licenses/GPL-3.0"
 
 obj.states = {}
