@@ -1,4 +1,4 @@
-# State Actor
+# StateActor
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 System power/session event listener for macOS powered by Hammerspoon's caffeinate.watcher API.
